@@ -1,0 +1,171 @@
+
+/*------------------------
+
+ÉtÉçÅ[Égâèú
+
+------------------------*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+*html .clearfix {
+	zoom: 1;
+	}
+
+*:first-child + html .clearfix {
+	zoom: 1;
+	}
+
+#contents{
+    text-align: left !important;
+    padding: 0 0 50px 0;
+}
+
+/*------------------------
+
+ownercomment
+
+------------------------*/
+
+.search_box{
+    width: 980px;
+    margin: 0 auto 20px auto;
+}
+.search_box li{
+    float: left;
+    margin: 0 15px 0 0;
+    list-style-type: none;
+}
+
+.search_date{
+    margin: 0 0 15px 0;
+}
+
+.search_date span{
+    padding: 0 5px;
+}
+
+.search_date input{
+    width: 50px;
+}
+
+.search_book{
+    margin: 0 auto 30px auto;
+    font-size: 17px;
+    padding: 10px;
+    border: 2px #2191c0 solid;
+    background-color: #fff;
+}
+
+.search_book span{
+    font-size: 15px;
+}
+
+#edit{
+    width: 980px;
+    margin: 0 auto 30px auto;
+}
+
+.table_edit{
+    word-break:break-all;
+    overflow:hidden;
+    text-align: left;
+}
+
+.table_edit td{
+    padding: 5px 0;  
+}
+
+.table_edit td.tbl_name{
+    width: 150px;
+}
+
+.table_edit td input{
+    width: 240px;
+}
+
+.table_edit td input.tw_box{
+    width: 220px;
+}
+
+.table_edit td textarea{
+    width: 700px;;
+}
+
+.search_main .inner{
+    margin: 0 0 10px 0;
+}
+
+.search_main .lt_box{
+    float: left;
+    width: 550px;
+}
+
+.tw_at{
+    float: left;
+    width: 20px;
+}
+
+.search_main .rt_box{
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.search_main .rt_box .thoughts{
+    margin: 0 0 10px 0;
+}
+
+.search_main .rt_box ul{
+    list-style-type: none;
+}
+
+.search_main .rt_box ul li{
+    margin: 0 0 10px 0;  
+}
+
+
+.search_main .rt_box ul li span{
+    padding: 0 0 0 5px;    
+}
+
+.btn_contact{
+    text-align: center;
+}
+
+.tw_box{
+    float: left;
+}
+
+/*------------------------
+
+ownerID
+
+------------------------*/
+
+.owner_txt{
+    margin: 0 0 20px 0;    
+}
+
+.owner_main .inner{
+    margin: 0 0 30px 0;
+}
+
+.owner_main .lt_box{
+    float: left;
+    margin: 0 50px 0 0;
+}
+
+.owner_main .rt_box{
+    float: left;
+}
+
+
+.owner_tbl th{
+    width: 196px
+}

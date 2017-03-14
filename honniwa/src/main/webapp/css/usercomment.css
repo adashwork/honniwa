@@ -1,0 +1,130 @@
+
+@charset "utf-8";
+/* style CSS */
+
+@import "reset.css";
+
+/*--------------------------------------------------------------------
+							ヘッダー
+---------------------------------------------------------------------*/
+#header{
+	margin: auto;
+}
+
+/*--------------------------------------------------------------------
+							フッター
+---------------------------------------------------------------------*/
+
+#footer_bt_area {
+	overflow: hidden;
+	margin: 10px auto;
+	padding-top: 8px;
+	font-size: 20px;
+}
+
+.footer_box_left{
+	float: left;
+	padding-left: 60px;
+}
+	
+.footer_box_right{
+	float: right;
+	padding-right: 60px;
+}
+
+.footer_box_right p{
+	text-align: right;
+}
+/*--------------------------------------------------------------------
+							入力部分
+---------------------------------------------------------------------*/
+#edit table{
+	background-color:#999;
+	border-collapse:separate;
+	margin: 10px auto;
+	border:1px;
+	width: 1080px;
+}
+#edit table td{
+	background-color:#eee;
+	padding: 5px;
+	text-align: left;
+}
+#edit table td{
+	background-color:#eee;
+	padding: 5px;
+	text-align: left;
+}
+.td_center{
+	background-color:#eee;
+	padding: 5px;
+	text-align: center !important;
+}
+
+/*--------------------------------------------------------------------
+							書籍一覧
+--------------------------------------------------------------------*/
+
+.hensyu{
+	width:60px
+}
+.hiduke{
+	width:90px
+}
+.namae{
+	width:140px
+}
+.kansou{
+	width:760px
+}
+.contents_main_scroll{
+	clear: both;
+	width: 1080px;
+	margin:auto;
+	line-height: 0;
+	border-collapse:separate;
+}
+
+#contents table {
+	width: 1078px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: 1px #1D81A0 solid;
+	font-size: 13px;
+	line-height: 1.5;
+}
+.contents_main_title,
+.contents_main_body {
+	display: block;
+	width: 1074px;
+	margin: auto;
+}
+
+.contents_main_body {
+	overflow-y: scroll;
+	width: 1074px;
+	height: 260px;
+}
+
+#contents tr:nth-child(even) th,
+#contents tr:nth-child(even) td {
+	background-color: #FEFEFE;
+}
+
+#contents th {
+	background-color: #44a5cb;
+	color: #ffffff;
+	border: 1px #1D81A0 solid;
+	height: 20px;
+	padding: 0px;
+
+}
+
+#contents td {
+	border: 1px #1D81A0 solid;
+	height: 20px;
+	padding: 1px;
+	text-align: left;
+}

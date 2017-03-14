@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*========================
+
+リセット
+
+========================*/
+
+html, body, div, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, ins, kbd, q, samp,
+small, sub, sup, var, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline: 0;
+	font-size:100%;
+	font-weight:normal;
+	}
+	
+img {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:top;
+	background:transparent;
+	}
+
+body {
+	line-height:1;
+	color:#333;
+	font:15px/1.6 arial,helvetica,clean,sans-serif;
+	*font-size:small;
+	*font:x-small;
+	}
+	
+@media screen and (max-width: 980px) {
+body {
+	line-height:1;
+	color:#333;
+	font:13px/1.6 arial,helvetica,clean,sans-serif;
+	*font-size:small;
+	*font:x-small;
+	}
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+	display:block;
+	}
+
+ul {
+	list-style:none;
+	}
+
+blockquote, q {
+	quotes:none;
+	}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content:none;
+	}
+
+a {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline: none; 
+	}
+
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+	}
+
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+	}
+
+del {
+	text-decoration:line-through;
+	}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted #000;
+	cursor: help;
+	}
+
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+	}
+
+input, select {
+	vertical-align:middle;
+	}
+
+select,input,button,textarea,button,option{
+	font:99% arial,helvetica,clean,sans-serif;
+	}
+
+table{
+	font-size:inherit;
+	font:100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+
+pre,code,kbd,samp,tt{
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+	}
