@@ -1,0 +1,444 @@
+@charset "UTF-8";
+
+.wf-sawarabigothic { font-family: "Sawarabi Gothic"; }
+
+.wrap{
+    background-color: #F6F3EC;
+    padding: 30px 0 50px 0;
+}
+
+.contents{
+    width: 950px;
+    margin: 0 auto;
+
+}
+
+
+/*------------------------
+
+トップページ
+
+------------------------*/
+.top_img{
+    background-color: #F6F3EC;
+    background-image: url(../img/ps_neutral.png);
+    background-repeat: repeat;
+}
+
+.top_img .inner{
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+    background-image: url(../img/top_img_bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 20px;
+}
+
+.top_img .inner .img{
+    float: left;
+    width: 460px;
+    height: auto;
+	display: inline-block;
+	position: relative;
+}
+
+
+.top_img .inner .text{
+    float: right;
+    width: 420px;
+    text-align: left;
+	font-size:138.5%;
+    padding: 10px 0 0 0;
+    text-shadow: 2px 2px 0px #fff,2px 2px 0px #fff,2px 2px 0px #fff;
+}
+
+
+.top_img .inner .text li h2{
+    color: #663333; 
+	font-size:120%;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.top_img .inner .text li:nth-child(2){
+    color: #333;
+    font-weight: bold;
+
+}
+
+.top_comment{
+    margin: 0 0 10px 0;
+}
+
+.top_comment span{
+    width: 50px;
+	height: 50px;
+    font-weight: bold;
+    text-align: center;
+	-webkit-border-radius: 25px;/* width,heightの半分 */
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background-color: #FFCC00;/* 円の色 */
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+box-shadow: 0px 0px 2px 2px #666;
+-webkit-box-shadow: 0px 0px 2px 2px #666;
+-moz-box-shadow: 0px 0px 2px 2px #666;
+	font-size:116%;
+}
+
+.top_comment .tbl01{
+    padding: 0 10px 0 0;
+}
+
+.cards {
+margin: 0 auto;
+width: 100%;
+}
+
+.card {
+width: 20%;
+padding: 0px 5px 10px 5px;
+overflow: hidden;
+display: block;
+position: relative;
+}
+
+.card img{
+    box-shadow: 0 1px 5px #ddd;
+
+}
+
+.card span {
+    width: 50px;
+	height: 50px;
+    font-weight: bold;
+    text-align: center;
+	-webkit-border-radius: 25px;/* width,heightの半分 */
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background-color: #FFCC00;/* 円の色 */
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    right: 15px;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ align-items: center; /* 縦方向中央揃え */
+ -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ justify-content: center; /* 横方向中央揃え */
+box-shadow: 0px 0px 2px 2px #666;
+-webkit-box-shadow: 0px 0px 2px 2px #666;
+-moz-box-shadow: 0px 0px 2px 2px #666;
+	font-size:116%;
+}
+/*------------------------
+
+ページ共通
+
+------------------------*/
+
+/* ページタイトル */
+
+.page_ttl{
+    padding: 50px 0;
+    background-color: #F6F3EC;
+    border-bottom:2px solid #EEEEEE;
+    background-image: url(../img/ps_neutral.png);
+    background-repeat: repeat;
+}
+
+.page_ttl h2{
+	font-size:146.5%;
+    line-height: 1.0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page_ttl h2 span{
+    margin: 10px 0 0 0;
+    display: block;
+	font-size:75%;
+}
+
+/* パンくずリスト */
+
+.pan {
+    border-bottom:2px solid #EEEEEE; 
+}
+
+.pan ul{
+    width: 940px;
+    margin: 0 auto;
+    padding: 7px 0;
+	font-size:85%;
+
+}
+
+.pan ul li{
+    float: left;
+
+}
+
+.pan ul li span{
+    padding: 0 10px;
+}
+
+/* ジャンル分け検索 */
+
+.search_box01{
+    padding: 15px 0;
+}
+
+.search_box01 .inner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.search_box01 .inner span{
+    float: left;
+    padding: 10px 0;
+    font-weight: bold;
+    width: 240px;
+}
+
+.search_box01 .inner ul{  
+    float: left;  
+}
+
+.search_box01 .inner ul li{
+    float: left;
+    margin: 0 10px 0 0;
+-webkit-border-radius:10px;
+-moz-border-radius:10px; 
+border-radius:10px;
+}
+
+.search_box01 .inner ul li a{
+    padding: 10px 25px;
+    font-weight: bold;
+    display: block;
+}
+
+/* 検索欄 */
+
+.search_box02{
+    padding: 15px 0;
+}
+
+.search_box02 .inner span{
+    width: 240px;
+    display: block;
+    float: left;
+}
+
+.search_box02 .inner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.search_box02 .inner span{
+    color: #fff;
+    padding: 0 20px 0 0;
+    font-weight: bold;
+}
+
+/*========================
+
+各ページ
+
+========================*/
+
+.page_contents{
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 40px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #ccc;
+}
+
+
+.page_contents h3.page_ttl02 {
+	position: relative;
+	padding-bottom: 0.5em;
+	border-bottom: 4px solid #ccc;
+    font-weight: bold;
+    font-size:116%;
+    margin: 0 0 20px 0;
+}
+
+.page_contents h3.page_ttl02::after {
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	z-index: 2;
+	content: '';
+	width: 20%;
+	height: 4px;
+	background-color: #663333;
+}
+
+.page_contents h4{
+    background-color: #663333; 
+    color: #fff;
+	font-size:116%;
+    padding: 6px 10px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    }
+.message_box .img{
+    float: left;
+    width: 200px;
+    margin: 0 40px 0 0;
+}
+
+.owner_box{
+   margin: 0 0 80px 0;
+   padding: 0 0 50px 0; 
+   border-bottom:1px dotted #ddd; 
+}
+
+.message_box li.inner{
+   margin: 0 0 30px 0; 
+   padding: 0 0 30px 0; 
+   border-bottom:1px dotted #ddd;
+   list-style-type: none;
+   }
+
+
+.message_box li:last-child.inner{
+    border-bottom: none;
+    padding: 0;
+
+}
+
+.message_box .detail{
+    margin: 0 0 15px 0;
+
+}
+
+.message_box .owner_datail{
+    float: right;
+    width: 620px;
+    }
+
+.detail .book_datail{
+    margin: 0 0 15px 0;
+}
+
+.detail .book_datail li{
+    margin: 0 0 5px 0;  
+}
+
+.detail .message .name{
+    margin: 0 0 10px 0;
+}
+
+.detail .message .name strong{
+    font-weight: bold;
+}
+
+.detail .message .name span{
+    float: right;
+}
+
+.detail ul.message_sns{
+    float: right;
+}
+
+.detail ul.message_sns li{
+    width: 30px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+
+
+
+
+
+
+/*------------------------
+
+検索結果
+
+------------------------*/
+
+.search_box {
+   margin: 0 0 30px 0;
+   padding: 0 0 30px 0; 
+   border-bottom:1px dotted #ddd; 
+}
+
+.search_box .img{
+    float: left;
+    width: 120px;
+    margin: 0 40px 0 0;
+}
+
+
+.search_box .detail{
+    margin: 0 0 15px 0;
+
+}
+
+.search_box .owner_datail{
+    float: right;
+    width: 700px;
+    }
+
+.detail ol.book_datail{
+    margin: 0 0 15px 0;
+}
+
+.detail ol.book_datail li{
+    margin: 0 0 5px 0;
+    list-style-type: none;
+    
+}
+
+
+/*------------------------
+
+お問い合わせ
+
+------------------------*/
+
+   
+.table_contact {
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.table_contact th {
+    width: 25%;
+    padding: 10px 0;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
+}
+
+.table_contact td {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+
+.btn_contact {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.text_contact01 {
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.text_contact02 {
+    font-size: 108%;
+}

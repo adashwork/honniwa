@@ -1,0 +1,459 @@
+@charset "utf-8";
+
+/*========================
+
+全ページ
+
+========================*/
+
+/*------------------------
+
+ベース
+
+------------------------*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+html {
+	overflow-y:scroll;
+	}
+
+select,input,button,textarea,button,option {
+	font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Lucida Grande", "Lucida Sans Unicode", "ＭＳ Ｐゴシック", Arial, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+/*------------------------
+
+ページ全体
+
+------------------------*/
+
+body {
+	height:100%;
+	font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Lucida Grande", "Lucida Sans Unicode", "ＭＳ Ｐゴシック", Arial, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-text-size-adjust:100%;
+	}
+
+/*------------------------
+
+ヘッダー
+
+------------------------*/
+	
+.header {
+	width:100%;
+	margin:0;
+	}
+
+.header h1{
+    margin: 0 auto;
+    width: 260px;
+    padding: 15px 0;
+}
+
+/*------------------------
+
+メニュー
+
+------------------------*/
+
+.nav{
+    background-image:url(../img/nav_bg.jpg);
+    background-repeat: repeat-x;
+
+}
+
+.nav ul{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav ul li{
+    float: left;
+    width: 313px;
+}
+
+
+.nav ul li:last-child{
+    width: 314px;}
+
+/*------------------------
+
+ページトップ
+
+------------------------*/
+	
+#page-top {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index:99999;
+	}
+	
+#page-top a {
+    width:80px;
+    height:96px;
+	padding:9px 0 0;
+	display: block;
+	cursor:pointer;
+    background-image:url(../img/top.png);
+    background-position:bottom right;
+    background-repeat:no-repeat;
+    background-size:80px auto;
+	}
+	
+#page-top a:hover {
+	text-decoration:none;
+	}
+
+/*------------------------
+
+フッター
+
+------------------------*/
+
+.ft_bna {
+	border-top: 2px solid #65554B;
+	border-bottom: 2px solid #65554B;
+	padding: 20px 0;
+    }
+
+.ft_box{
+	width: 940px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.ft_box .ft_logo{
+	width: 260px;
+	float: left;
+}
+
+.ft_box .ft_nav{
+	float: right;
+	width: 320px;
+}
+
+.ft_box .ft_nav li{
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+.ft_bna ul{
+	width: 940px;
+	margin: 0 auto;
+}  
+        
+.ft_bna ul li{
+    float:left;
+	width: 164px;
+	margin: 0 30px 0 0;
+
+    }
+    
+.ft_bna li:nth-child(5n) {
+	margin: 0px;
+    }
+
+.copy {
+	background-color: #663333;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+	}
+
+
+/*------------------------
+
+リンク
+
+------------------------*/
+
+a {
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    }
+
+a:link,a:visited {
+	color:#333;
+	text-decoration:none;
+	}
+
+a:hover,a:active {
+	color:#008C68;
+	text-decoration: underline;
+	}
+    
+a.w_txt:link,a.w_txt:visited {
+	color:#fff;
+	text-decoration:none;
+	}
+
+a.w_txt:hover,a.w_txt:active {
+	color:#fff;
+	}
+
+a.g_txt:link,a.g_txt:visited {
+	color:#007E64;
+	text-decoration: underline;
+	}
+
+a.g_txt:hover,a.g_txt:active {
+	color:#333;
+	}
+    		
+a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+    }
+	
+.allbtn a:hover img,a:hover img.btn {
+	opacity:1.0;
+	filter: alpha(opacity=100);
+	-ms-filter: "alpha( opacity=100 )";
+	}
+	
+.box_inner a:link,.box_inner a:visited {
+	color:#009BE4;
+	}
+
+.box_inner a:hover,.box_inner a:active {
+	color:#009BE4;
+	}
+
+a:hover img {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -ms-filter: "alpha( opacity=80 )";
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.allbtn a:hover img, .a:hover img.btn {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -ms-filter: "alpha( opacity=100 )";
+}
+/*------------------------
+
+テキストボックス
+
+------------------------*/
+
+.txtboxS {
+	width:25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.txtboxM {
+	width:50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.txtboxL {
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+
+/*------------------------
+
+フロート解除
+
+------------------------*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+*html .clearfix {
+	zoom: 1;
+	}
+
+*:first-child + html .clearfix {
+	zoom: 1;
+	}
+	
+/*------------------------
+
+画像
+
+------------------------*/
+
+.img_left {
+	float:left;
+	padding:0 15px 0 0;
+}
+
+.img_right {
+	float:right;
+	padding:0 0 0 15px;
+}
+
+.img_center {
+	text-align:center;
+}
+	
+
+/*------------------------
+
+マージン
+
+------------------------*/
+
+.b5 {
+	margin-bottom:5px;
+}
+
+.b10 {
+	margin-bottom:10px;
+}
+
+.b15 {
+	margin-bottom:15px;
+}
+
+.b20 {
+	margin-bottom:20px;
+}
+
+.b25 {
+	margin-bottom:25px;
+}
+
+.b30 {
+	margin-bottom:30px;
+}
+
+.b35 {
+	margin-bottom:35px;
+}
+
+.b40 {
+	margin-bottom:40px;
+}
+
+.t_indent {
+	padding-left: 1.0em;
+	text-indent: -1.0em;
+}
+
+.t_right {
+	text-align:right;
+}
+
+.t_center{
+	text-align:center;
+}
+	
+
+/*------------------------
+
+フォントサイズ
+
+------------------------*/
+
+.red{
+	color:#DD0000;
+	}
+
+.green{
+    color:#008C69;
+    }
+
+.red_b{
+	color:#DD0000;
+    font-weight:bold;
+	}
+	
+.font_b{
+    font-weight:bold;
+	}
+
+.font_13{
+	font-size:77%;
+	}
+	
+.font_14{
+	font-size:85%;
+	}
+	
+.font_15{
+	font-size:93%;
+	}
+	
+.font_16{
+	font-size:100%;
+	}
+	
+.font_17{
+	font-size:108%;
+	}
+	
+.font_18{
+	font-size:116%;
+	}
+	
+.font_19{
+	font-size:123.1%;
+	}
+	
+.font_20{
+	font-size:131%;
+	}
+
+.font_21{
+	font-size:138.5%;
+	}
+	
+.font_22{
+	font-size:146.5%;
+	}
+	
+.font_23{
+	font-size:153.9%;
+	}
+	
+.font_24{
+	font-size:161.6%;
+	}
+
+.font_25{
+	font-size:167%;
+	}
+	
+.font_25{
+	font-size:174%;
+	}
+	
+.font_26{
+	font-size:182%;
+	}
+	
+.font_27{
+	font-size:189%;
+	}
+
+.font_28{
+	font-size:197%;
+	}

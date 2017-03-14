@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/******************** 共通部分 *********************/
+html{
+    height: 100%;   
+}
+
+body{
+    font-family: メイリオ;
+    height: 100%;
+}
+
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+/******************** メインのコンテナ *********************/
+#wrapper{
+    background-color:#eee;
+    /* 位置 */
+    margin: 0px auto;
+    /* 高さ、幅 */
+    width: 1200px;
+}
+#header{
+    background-color: #2191c0;
+    /* 高さ、幅 */
+    height: 100px;
+    width: 1200px;
+}
+#contents{
+    clear: both;
+    /* 中身の位置 */
+    text-align:center;
+    /*height: 480px;*/
+    width: 1200px;
+}
+#footer{
+    /* background-color: #8DCFEB; */
+    background-color: #ccc;
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/***************** header内のスタイル ******************/
+#logo{
+    /* 位置 */
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 200%;
+}
+#title, #page_title{
+    color: #fff;
+    /* 中身の位置 */
+    padding-top: 30px;
+    text-align: center;
+}
+/***************** パンくずのスタイル ******************/
+
+.pan{
+    background: #eee; 
+    margin: 0 0 15px 0;
+}
+#topic-path{
+	font-size: 16px;
+	list-style-type:none;
+    /* 中身の位置 */
+	text-align: left;
+    padding:10px 15px;
+    /* 高さ、幅 */
+    width: 980px;
+    margin: 0 auto;
+}
+#topic-path li{
+    float: left;
+}
+#topic-path li:before {
+    content: " >";
+}
+#topic-path li:first-child:before {
+    content:"";
+}
+/***************** footer内のスタイル ******************/
+.ft_menu{
+    list-style-type: none;
+    width: 1200px;
+    margin: 0 auto;
+    padding:10px 0;
+}
+
+.ft_menu li{
+    float: right;
+    margin: 0 5px 0 0;
+}
+
+.ft_menu li a{
+    padding: 10px 20px;
+
+}
+
+#copyright{
+    background-color: #2191c0;
+    color: #fff;
+    /* 中身の位置 */
+    padding-top: 8px;
+    text-align: center;
+    /* 高さ、幅 */
+    height: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/******************** サブのコンテナ *********************/
+/* 画面の内容によって、searchかmessageを使う */
+#search{
+    /* border: 2px solid #79c9ec; */
+    /* 高さ、幅 */
+    height: 70px;
+}
+#search .right{
+    padding-right: 100px;
+    text-align: right;
+}
+#search .right a{
+    font-size: 20px;
+    width: 160px;
+}
+#message{
+    /* 高さ、幅 */
+    height: 30px;   
+}
+/* 画面の内容によって、以下の3つから1つ使う */
+#main{
+    text-align: center;
+}
+#list{
+    text-align: center;
+}
+/******************** index menu *********************/
+#menu{
+    /* 中身の位置 */
+    text-align: center;
+    /* 位置 */
+    margin-right: auto; 
+    margin-left: auto;
+    /* 高さ、幅 */
+    width: 880px;  
+}
+#menu ul{
+ 	list-style-type:none;   
+}
+#menu li a{
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 16px;
+    width: 380px;
+}
+#menu_left{
+    float: left;
+}
+#menu_right{
+    float: left;
+    margin-left: 60px;
+}
+/******************** admin login *********************/
+#login{
+    margin-top: 60px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+#login th{
+    padding:10px;
+    width: 150px;
+}
+#login td{
+    padding:10px;
+}
+#login #userid, #login #passwd{
+    width: 200px;   
+}
+#login .button{
+	color:#fff;
+	font-size: 22px; 
+	margin: 10px;
+	width: 150px;  
+}
+/******************** 入力フォーム *********************/
+input[type="text"], input[type="password"]{
+    font-size: 14px;
+    padding: 4px;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    border: 2px solid #79c9ec;
+}
+input[type="submit"]{
+	cursor: pointer;
+}
+#editbutton{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 150px;    
+}
+select{
+    font-size: 16px;
+    padding: 4px;
+}
+/******************** 一覧 *********************/
+#listTable{
+    border-collapse:separate;
+    border-spacing: 1px;
+    width: 980px;
+    word-break:break-all;
+    overflow:hidden;
+    text-align: left;
+}
+
+#listTable tr{
+    width: 100%;    
+}
+
+#listTable thead {
+    display:block;
+}
+#listTable tbody{
+    background-color: #666;
+    display: block;
+    overflow-y: scroll;
+    height: 300px;
+}
+#listTable th{
+    table-layout:fixed;
+    height:40px;
+    padding: 0 20px;
+}
+#listTable td{
+    background-color: #fff;
+    table-layout:fixed;
+    height:40px;
+    padding:5px 15px;
+}
+#listTable td a, #listTable input[type="submit"]{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+/******************** end *********************/
+
+    
+.messagearea{	/* 更新メッセージ */
+	border: none;
+	background-color: #eee;
+}    
+
+#cent{
+
+    text-align:center;
+    width:100%;
+}
+#hida{
+    text-align:left;
+    width:450px;
+    margin:0px auto;
+}
+
+#choosecolor{
+	color: #65095f;	
+}
+
+/******************** リンク文字 *********************/
+a.w_txt:link,a.w_txt:visited {
+	color:#fff;
+	text-decoration:none;
+	}
+
+a.w_txt:hover,a.w_txt:active {
+	color:#fff;
+	}
